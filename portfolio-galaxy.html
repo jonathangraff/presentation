@@ -3,46 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Application Mobile</title>
+    <title>Jeu Galaxy</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <!-- HEADER -->
-    <iframe class = header src="header.html" scrolling="no"></iframe>
+    <iframe class = header  src="header.html" scrolling="no"></iframe>
     <script src="menu.js"></script>
-
     <!-- SECTION GRISE TITRE -->
-    <div class="section section-grise1" style="padding-top:20px">
-        <a class="portfolio-back" href="index.html">Retour</a>
-        <div class="separateur" style="margin-top:-12px;"></div>
-        <h1 class="portfolio">Portfolio</h1>
-        <h2 class="portfolio">Site web pour un restaurant</h2>
-    </div>
-
+        <div style="float:left"><a href="index.html">Retour</a></div>
+        <h2 class = titre> 
+            Jeu vidéo "Galaxy"</h2>
+   
     <!-- SECTION CONTENU -->
-    <div class="section">
+    <div class="section section-grise2">
         <div class="texte-avec-ligne-verticale">
             <p>
-                J’ai réalisé ce projet web pour un client travaillant dans le domaine de la restauration.
+                J’ai réalisé ce jeu simple pour me familiariser avec le framework de Python, Kivy. Le jeu consiste simplement à déplacer un vaisseau, représenté
+                par un triangle le long d'une route tracée aléatoirement sans tomber. 
                 <br><br>
-                L’objectif ? Permettre à ce restaurant de gagner en visibilité et de proposer son menu de pizzas aux utilisateurs.
-                <br><br>
-                Mon client, étant novice dans les nouvelles technologies, à la possibilité de modifier facilement son menu en ligne grâce à une interface d’administration sur-mesure que j’ai réalisé.
-                <br><br>
-                Ce projet simple mais fonctionnel a donné entière satisfaction à mon client.
-                <br><br>
-                <u>Technologies utilisées :</u> <b>HTML, CSS, DJANGO, PYTHON, HEROKU</b>
+
+                <u>Outils utilisées</u> : <b>Python, Kivy</b>
 
             </p>
-            <div style="text-align: center; margin-top: 30px">
-                <a href="https://jrpizzamamadjango2.herokuapp.com"><img class="portfolio" src="images/galaxy.jpg"></a>
-                <a style="display: block; margin-top: 8px;" href="https://jrpizzamamadjango2.herokuapp.com">Consulter le projet</a>
+            <div class = "portfolio-detail">
+                <a href="https://github.com/jonathangraff/Jeu_Galaxy" target="_blank"><img class = "portfolio-detail" src="images/galaxy.jpg"></a>
+                <a style="display: block; margin-top: 8px;" href="https://github.com/jonathangraff/Jeu_Galaxy" target="_blank">Voir la page GitHub du projet</a>
             </div>
         </div>
     </div>
 
     <!-- FRAME -->
-        <iframe class = contact src="contact-frame.html" scrolling="no"/>  
+    <iframe class=contact src="contact-frame.html" scrolling="no"/>  
 </body>
 </html>
