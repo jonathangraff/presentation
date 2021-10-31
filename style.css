@@ -276,6 +276,7 @@ div.texte-avec-ligne-verticale {
     padding-left: 8px;
     height: 70px;
     display: inline-block;
+    margin-top: 0px;
 }
 
 div.texte-avec-ligne-verticale p {
@@ -355,12 +356,16 @@ img.portfolio {
     max-width: 475px;
 }
 div.portfolio-detail{
+    width: 100%;
     text-align: center; 
     margin-top: 30px;
+    
 }
 
 img.portfolio-detail{
-    width:80%
+    width:80%;
+    max-width: 1000px;
+    text-align:center
 }
 
 .display-mobile {
