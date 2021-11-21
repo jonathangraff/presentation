@@ -14,7 +14,7 @@ document.write("<table class='col-portfolio' style='display:inline-block'><tr><t
 
 document.write("<td style='width:100%;'><a href='portfolio-site-restaurant.html'><img style='width:100%' src='images/mrbeat.jpg'>")
 document.write("</a></td></tr><tr><td></td>")
-document.write("<td align='center'><a href='portfolio-site-restaurant.html'>Création d'une boîte à rythmes<br><br></a></td></tr></table>")
+document.write("<td align='center'><a href='portfolio-mrbeat.html'>Création d'une boîte à rythmes<br><br></a></td></tr></table>")
 
 document.write("<table  class='col-portfolio float-right'><tr><td><div class='barre-verticale'></div></td>")
 
