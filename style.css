@@ -453,6 +453,7 @@ div.contactgroupe table{
     img.cover-profile {
         height: 90px;
         margin-top: 75px;
+        margin-left: -45px;
     }
     
     h1 {
