@@ -6,6 +6,7 @@
     font-size: 100%;
     vertical-align: baseline;
     background: transparent;
+    color: var(--colortext)
 }
 
 *{
@@ -14,18 +15,26 @@
 
 
 :root {
-    --color1: #D89584;
-    --color2: #F4F4F4;
-    --color3: #e7e4e4;
+    
+    --colortext: #FFFFFF;
+    --color1: #EA502F;
+    --color2: #3d3d3d;
+    --color3: #3d3d3d;
+    --color4: #000000;
+    --color5: #3d3d3d;
+    --color6: #979797; /* séparateur*/
+    --color7: #656565;
 }
 
 body {
     margin: 0;
     font-family: Arial;
     line-height: 1.5;
-    background-color: var(--color2);
+    background-color: var(--color4);
 }
-
+p{
+    margin-left:20px
+}
 iframe.contact {
     width: 100%;
     border: none;
@@ -49,7 +58,7 @@ div.testxx img{
 
 div.cover {
     background: url(images/cover_overlay.png) no-repeat center/100% 100%,url(images/cover.jpg) no-repeat center/cover;
-    height: 360px;
+    height: 400px;
     position: relative;
 }
 
@@ -62,26 +71,31 @@ img.cover-profile {
 }
 
 h1 {
-    color: white;
+    
     text-align: center;
     font-size: 42px;
     margin-top: 10px;
     margin-bottom: 0px;
 }
-
+h2 a{
+    color: var(--colortext);
+    text-decoration:none
+}
 div.separation1{
     background: url(images/triangle2white.svg) no-repeat center bottom -1px/100%;
     padding-bottom: 180px;
     margin-top: 0px;
 }
-div.section-grise1 {
-    background-color: var(--color2);  
+div.section-grise{
+    background-color: var(--color2); 
+    padding-top :20px;
+    padding-bottom:20px
 }
-div.separation2 {
-    background: url(images/triangle1white.svg) no-repeat center top/100%;
-    padding-top: 180px;
+/* div.separation2 {*/
+    /* background: url(images/triangle1white.svg) no-repeat center top/100%; */
+    /* padding-top: 100px;
     margin-bottom: 0px;
-}
+} */ 
 
 .menu{
     height:50px;
@@ -92,21 +106,20 @@ div.separation2 {
     background-color: var(--color1);
     padding-top: 20px;
     padding-bottom:20px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     font-weight:bold;
     font-size:45px;
+    color:var(--color4)
 }
 
 nav{
     width: 100%;
     height:50px;
-    background-color:lightgray;
+    background-color:var(--color5);
     margin-top:-8px
 
 
 }
-
-
 
 nav a{
     display:block;
@@ -136,23 +149,27 @@ nav li:hover{
     background-color: black;
     text-decoration: underline var(--color1);
 }
+nav a:hover{
+    color:var(--color1);
+    font-size:18px;
+    text-decoration: underline var(--color1);
+}
 nav ul::after{
     content:"";
     display : table;
     clear:both;
 }
 .sous{
-    background-color: lightgray;
-
+    background-color: var(--color5);
     display:none;
     box-shadow:10px 10px 5px #CCC;
     position:absolute;
-    width:100%;
+    width:450px;
     z-index: 1000;
 }
 .sous li{
     float:none;
-    width:100%;
+    width:450px;
     text-align: left;
 }
 .sous a{
@@ -171,7 +188,7 @@ nav > ul li:hover .sous{
     font-size: 12px;
 }
 div.cover p {
-    color: lightgray;
+    color: var(--color5);
     text-align: center;
     margin-top: 8px;
     font-size: 14px;
@@ -197,8 +214,8 @@ div.cover-contact p:first-child {
 }
 
 div.cover-contact * {
-    color: white;
-    font-size: 14px;
+    color: var(--colortext);
+    font-size: 18px;
 }
 
 a.contact-button {
@@ -213,13 +230,33 @@ a.contact-button {
     border-radius: 20px;
 }
 
+h2.badge-title {  
+    color: var(--color4);
+    border: 3px solid var(--color1);
+    padding: 12px 80px;
+    text-decoration: none;
+    background-color: var(--color1);
+    display: block;
+    width:75%;
+    margin: 25px auto 50px auto;
+    font-size: 40px;
+    border-radius: 50px;
+    text-align:center;
+    font-weight:bold
+}
+h2.badge-title a {
+    color: var(--color4);
+}
 a.contact-button-portfolio {
     position: absolute; 
     right: 20px; 
     top:5px;
 }
-
+div.carousel-item h4{
+    color:var(--color4)
+}
 a.contact-button:hover {
+    color: var(--color1);
     background-color: black;
     font-weight: bold;
 }
@@ -230,21 +267,16 @@ a.contact-button:hover {
     padding-top: 30px;
     padding-bottom: 30px;
     overflow: auto;
-    background-color: white;
+    background-color:var(--color4);
 }
 
-
-
-div.section-grise2 {
-    background-color: var(--color2);    
-}
-div.fin{
+/* div.fin{
     height:400px;
     background: url(images/triangle2white.svg) no-repeat center bottom -1px/100%;
     background-color: var(--color2);
     padding-bottom: 70px;
     margin-top: -115px;
-}
+} */
 h2 {
     text-align: center;
     font-size: 34px;
@@ -253,7 +285,7 @@ h2 {
 }
 
 div.separateur {
-    background-color: #979797;
+    background-color: var(--color6);
     height: 1px;
     width: 150px;
     position: relative;
@@ -262,14 +294,14 @@ div.separateur {
     margin-bottom: 20px;  
 }
 
-div.section-grise1 p {
+/* div.section-grise p {
     font-size: 22px;
-    color: #656565;
+    color: var(--color7);
     text-align: center;
     max-width: 450px;
     margin-left: auto;
     margin-right: auto;
-}
+} */
 
 img.col-contenu {
     width: 30%;
@@ -311,7 +343,7 @@ div.barre-verticale {
 div.frame {
     margin: 0px 50px;
     padding: 20px 30px;
-    background-color: white;
+    /* background-color: var(--color4); */
     box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.1);
 
 }
@@ -340,7 +372,7 @@ div.frame img {
 .portfolio-header-title {
     font-size: 26px;
     font-weight: bold;
-    color: white;
+    color: var(--colortext);
     padding-top: 4px;
     padding-left: 8px;
 }
@@ -420,7 +452,8 @@ li{
 
 *.CVgroupe{
     padding-bottom: 20px;
-    padding-left: 10px
+    padding-left: 10px;
+    background-color:var(--color4)
 }
 
 .flex{
@@ -434,8 +467,14 @@ li{
 td.down{
     padding-bottom: 10px;
 }
-
-
+.pdf{
+    text-align:center; 
+    margin-top:-45px
+}
+.competence{
+    list-style-type: circle;
+    margin-left: 30px;"
+}
 /* Contacts */ 
 
 div.contactgroupe{
@@ -451,7 +490,8 @@ div.contactgroupe img{
 }
 div.contactgroupe td{
     vertical-align:middle;
-    padding-right: 30px;
+    padding: 20px 30px 20px 0;
+    margin:20px;
 }
 td.col1{
     width:90px
@@ -474,6 +514,9 @@ div.contactgroupe table{
         margin-top: 6px;
         margin-bottom: 0px;
     }
+    div.cover {
+        height: 350px;
+    }
     
     div.cover p {
         margin-top: 2px;
@@ -485,7 +528,7 @@ div.contactgroupe table{
         padding-right: 20px;
     }
     
-    div.section-grise1 {
+    div.section-grise {
         padding-bottom: 40px;
     }
 
@@ -496,7 +539,12 @@ div.contactgroupe table{
     img.col-contenu {
         width: 100%;
     }
-    
+    .sous li{
+        width:250px;
+    }
+    .sous {
+        width:250px;
+    }
     div.col-contenu {
         width: 100%;
         padding-left: 0px;
@@ -543,6 +591,20 @@ div.contactgroupe table{
         font-size: 22px;
     }
 
+    h2.badge-title {
+    
+        color: var(--color4);
+        padding: 12px 20px;
+        text-decoration: none;
+        background-color: var(--color1);
+        display: block;
+        width:100%;
+        margin: 25px auto 25px auto;
+        font-size: 35px;
+        text-align:center;
+        font-weight:bold
+    }
+
     img.portfolio {
         width: 100%;
     }
@@ -550,8 +612,19 @@ div.contactgroupe table{
     .display-mobile {
         display: block;
     }
+    .pdf{
+        text-align:center; 
+        margin-top:-35px
+    }
+    .competence{
+        margin-left: -10px;"
+    }
+    .bullet {
+       
+        margin-left : -10px;
+    }
 }
-@media only screen and (max-width: 837px) {
+@media only screen and (max-width: 992px) {
     div.logo img{
         
         height:50px;
@@ -561,13 +634,23 @@ div.contactgroupe table{
         margin-left: -200px;
     }
 }
-@media only screen and (max-width:462px) {
+@media only screen and (max-width:540px) {
     div.logo img{
         
         height:40px;
         width: auto;
     }
     div.logo img:first-of-type{
-        margin-left: -320px;
+        margin-left: -200px;
+    }
+}
+@media only screen and (max-width:432px) {
+    div.logo img{
+        
+        height:35px;
+        width: auto;
+    }
+    div.logo img:first-of-type{
+        margin-left: -240px;
     }
 }

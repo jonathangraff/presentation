@@ -7,23 +7,30 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../default.css">
 </head>
-<body>
+<body style="background-color:var(--color4)">
     <!-- HEADER -->
     <iframe class = header src="header.html" scrolling="no"></iframe>
     <script src="menu.js"></script>
     <!-- SECTION GRISE 1 -->
-    
-   <h2 class ='titre'>Portfolio</h2> 
-        
-<p style="font-size: 18px;margin: 20px 0 10px 10px;">Voici différents projets que j'ai créés jusqu'à aujourd'hui. Il s'agit pour l'instant 
-    de projets destinés à me familiariser avec les différents outils étudiés, ainsi que diverses réalisations au cours de mes études.   
-</p>
-   <div class="section section-grise2">
-        <script src=portfolio.js></script>
-    </div>
+    <div class='container'>
+        <h2 class ='badge-title'>Portfolio</h2> 
+                
+            <p >Voici différents projets que j'ai créés jusqu'à aujourd'hui. Il s'agit pour l'instant 
+                de projets destinés à me familiariser avec les différents outils étudiés, ainsi que diverses réalisations au cours de mes études.   
+        </p>
+        <div class="section ">
+                <script src=portfolio.js></script>
+            </div>
 
-    <!-- SECTION BLANCHE FRAME -->
-    <iframe  class = contact src="contact-frame.html" scrolling="no"/>
+            <!-- SECTION BLANCHE FRAME -->
+            <footer>
+
+                <div class='section section-grise'>
+                    <script src='contact-frame.js'></script>
+                </div>
+            </footer>
+        </div>
 </body>
 </html>

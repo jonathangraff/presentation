@@ -15,6 +15,8 @@
         <img class="cover-profile" src="images/profile.png"/>
         <h1>Jonathan GRAFF</h1>
         
+        <h1> Développeur web</h1>
+        
         <div style="text-align: center;">
             <a class="contact-button" href="mailto:jonathan.graff@hotmail.fr?subject=Contact">ME CONTACTER</a>
         </div>
@@ -27,11 +29,10 @@
     <div style="margin-top:8px">    <script src="menu.js"></script>
     </div>
     
-    <!-- SECTION GRISE 1 -->
-    
-    <!-- SECTION BLANCHE -->
-    <div class="section">
-        <h2>Parcours</h2>
+    <!-- PARCOURS -->
+
+    <div class="section" style="padding-bottom:100px">
+        <h2 class='badge-title'>Parcours</h2>
        <!--<img src="images/profile2.jpg" class="col-contenu" /> -->
         <div class="col-contenu float-right">
             <div class="texte-avec-ligne-verticale">
@@ -40,18 +41,18 @@
                     J'ai donc suivi en parallèle de mon métier d'enseignant un deuxième master de mathématiques, cette fois-ci appliquées, afin de pouvoir mettre en pratique toutes mes
                     connaissances théoriques. Au fur et à mesure de cette formation, j'ai confirmé ma passion pour la programmation en général, et plus particulièrement pour le développement.<br><br>
                     Très intéressé par les domaines du <b>web</b>, des <b>applications mobiles</b>, et de la <b>data science</b>, je recherche actuellement un emploi.</p>
-                <a href="https://www.linkedin.com/in/jonathan-graff" target="_blank">Mon Profil LinkedIn</a>
-                <a style="margin-left:30px" href="CV Jonathan GRAFF.pdf" target="_blank">Mon CV</a>
-                <a style="margin-left:30px" href="https://github.com/jonathangraff" target="_blank">Mon GitHub</a>
+                <a class='contact-button' href="https://www.linkedin.com/in/jonathan-graff" target="_blank">Mon Profil LinkedIn</a>
+                <a class='contact-button' style="margin-left:30px" href="CV Jonathan GRAFF.pdf" target="_blank">Mon CV</a>
+                <a class='contact-button' style="margin-left:30px" href="https://github.com/jonathangraff" target="_blank">Mon GitHub</a>
             </div>
         </div>
         
     </div>
-    <div class="separation2"></div>
+    <!-- <div class="separation2"></div> -->
 
     <!-- SECTION GRISE 2 -->
-    <div class="section section-grise2">
-        <h2><a href='portfolio.html'>Portfolio</a></h2>
+    <div class="section section-grise">
+        <h2 class='badge-title'><a href='portfolio.html' >Portfolio</a></h2>
         <div class='container '>
             
             <div id='monCarrousel' class='carousel slide carousel-fade m-auto d-block' 
@@ -76,7 +77,7 @@
                     <div class='carousel-item active'>
                         <div class='card ' >
                             <div class='card-header carte-header'>
-                                <h4 class='text-dark text-center'>Site Web et application d'un restaurant</h4>
+                                <h4 class='text-center'>Site Web et application d'un restaurant</h4>
                             </div>
                             <img src='images/project1small.jpg' class='w-100 card-img-top d-block testxx'>
                         </div>
@@ -86,7 +87,7 @@
                     <div class='carousel-item'>
                         <div class=card>
                             <div class='card-header carte-header'>
-                                <h4 class='text-dark text-center'>Jeu vidéo Galaxy</h4>
+                                <h4 class='text-center'>Jeu vidéo Galaxy</h4>
                             </div>
                             <img src='images/galaxy.jpg' class='w-100 d-block card-img-top'>
                         </div>
@@ -96,7 +97,7 @@
                     <div class='carousel-item'>
                         <div class=card>
                             <div class='card-header carte-header'>
-                                <h4 class='text-dark text-center'>Boîte à rythme</h4>
+                                <h4 class='text-center'>Boîte à rythme</h4>
                             </div>
                             <img src='images/mrbeat.jpg' class='w-100 d-block card-img-top'>
                         </div>
@@ -105,7 +106,7 @@
                     <div class='carousel-item'>
                         <div class=card>
                             <div class='card-header carte-header'>
-                                <h4 class='text-dark text-center'>
+                                <h4 class='text-center'>
                                     Utilisation de logiciel d'assistant de preuve pour piloter des bras de robots médicaux
                                 </h4>
                             </div>
@@ -116,7 +117,7 @@
                     <div class='carousel-item'>
                         <div class=card>
                             <div class='card-header carte-header'>
-                                <h4 class='text-dark text-center'>Apprentissage par renforcement profond pour des problèmes combinatoires</h4>
+                                <h4 class='text-center'>Apprentissage par renforcement profond pour des problèmes combinatoires</h4>
                             </div>
                             <img src='images/renforcement.jpg' class='w-100 d-block card-img-top'>
                         </div>
@@ -125,7 +126,7 @@
                     <div class='carousel-item'>
                         <div class=card>
                             <div class='card-header carte-header'>
-                                <h4 class='text-dark text-center'>Déformation par itérations de surfaces vers des surfaces minimales</h4>
+                                <h4 class='text-center'>Déformation par itérations de surfaces vers des surfaces minimales</h4>
                             </div>
                             <img src='images/catenoide.gif' class='w-100 d-block card-img-top'>
                         </div>
@@ -154,9 +155,14 @@
         
     </div>
 <!-- SECTION FIN -->
-<div class="fin"></div>
+<!-- <div class="fin"></div> -->
     <!-- SECTION BLANCHE FRAME -->
-    <iframe class = contact src="contact-frame.html" scrolling="no"></iframe>
+    <footer>
+        <!-- <iframe class = contact src="contact-frame.html" scrolling="no"></iframe> -->
+        <div class='section'>
+            <script src='contact-frame.js'></script>
+        </div>
+    </footer>
 
 
 

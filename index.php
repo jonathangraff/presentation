@@ -38,7 +38,7 @@
     <?php include "menu.html";?>
 
     <!-- SECTION GRISE 1 -->
-    <div class="section section-grise1">
+    <div class="section section-grise">
         <div class="separateur"></div>
         <p>Je développe <b>votre projet WEB</b> ou vos <b>Applications mobiles</b> iOS/Android de A à Z</p>
     </div>
@@ -61,7 +61,7 @@
     <div class="separation2"></div>
 
     <!-- SECTION GRISE 2 -->
-    <div class="section section-grise2">
+    <div class="section section-grise">
         <h2>Portfolio</h2>
         <table class="col-portfolio" style="display:inline-block">
             <tr>

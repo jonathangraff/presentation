@@ -4,42 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site web de restaurant</title>
-    <link rel="stylesheet" href="style.css"><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="../default.css">
 </head>
-<body>
+<body style="background-color:var(--color4)">
 
     <!-- HEADER -->
     <iframe class = header  src="header.html" scrolling="no"></iframe>
     <script src="menu.js"></script>
     <!-- SECTION GRISE TITRE -->
-    
-        <h2 class = titre> 
+    <div class='container'>
+        <h2 class = badge-title> 
             Site web et application pour un restaurant</h2>
    
-    <!-- SECTION CONTENU -->
-    <div class="section section-grise2">
-        <div class="texte-avec-ligne-verticale">
-            <p>
-                J’ai réalisé un site Web, une API et une application pour me former plus particulièrement au côté back-end de la programmation Web. 
-                <br><br>
-                Une interface administrateur sur mesure permet de modifier sa carte très facilement et les changements sont répercutés directement sur le site et l'application <br>
-                <a href="https://jgpizzamama.herokuapp.com/admin"> jgpizzamama.herokuapp.com/admin</a>. (Login : admin et mot de passe : adminadmin)
+        <!-- SECTION CONTENU -->
+        <div class="section">
+            <div class="texte-avec-ligne-verticale">
+                <p>
+                    J’ai réalisé un site Web, une API et une application pour me former plus particulièrement au côté back-end de la programmation Web. 
+                    <br><br>
+                    Une interface administrateur sur mesure permet de modifier sa carte très facilement et les changements sont répercutés directement sur le site et l'application <br>
+                    <a href="https://jgpizzamama.herokuapp.com/admin"> jgpizzamama.herokuapp.com/admin</a>. (Login : admin et mot de passe : adminadmin)
 
-                <br><br>
+                    <br><br>
 
-                <u>Outils utilisés</u> : <b>HTML5, CSS3, Django, Python, Heroku</b>
-            </p>
+                    <u>Outils utilisés</u> : <b>HTML5, CSS3, Django, Python, Heroku</b>
+                </p>
+            </div>
+            <div class = "portfolio-detail">
+                <a href="https://jgpizzamama.herokuapp.com/" target="_blank"><img class = "portfolio-detail" src="images/project1.jpg"></a><br>
+                <a class='contact-button' style="display: inline-block; margin-top: 8px;" href="https://jgpizzamama.herokuapp.com" target="_blank">Voir le site web du projet</a><br>
+                <a class='contact-button' style="display: inline-block; margin-top: 8px;" href="https://github.com/jonathangraff/Pizza_Mama" target="_blank">Voir la page GitHub du projet</a>
+            </div>
         </div>
-        <div class = "portfolio-detail">
-            <a href="https://jgpizzamama.herokuapp.com/" target="_blank"><img class = "portfolio-detail" src="images/project1.jpg"></a>
-            <a style="display: block; margin-top: 8px;" href="https://jgpizzamama.herokuapp.com" target="_blank">Voir le site web du projet</a><br>
-            <a style="display: block; margin-top: 8px;" href="https://github.com/jonathangraff/Pizza_Mama" target="_blank">Voir la page GitHub du projet</a>
-        </div>
+
+        <footer>
+
+            <div class='section section-grise'>
+                <script src='contact-frame.js'></script>
+            </div>
+        </footer> 
     </div>
-
-    <!-- FRAME -->
-    <iframe class=contact src="contact-frame.html" scrolling="no"/>  
+   
 </body>
 </html>
