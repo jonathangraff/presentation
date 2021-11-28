@@ -37,6 +37,16 @@ iframe.header {
     height: 90px;
 }
 
+div.carte-header{
+    background-color: var(--color1);
+}
+
+div.testxx img{
+    max-width: 800px;
+    text-align: center;
+    margin: auto
+}
+
 div.cover {
     background: url(images/cover_overlay.png) no-repeat center/100% 100%,url(images/cover.jpg) no-repeat center/cover;
     height: 360px;
@@ -80,8 +90,11 @@ div.separation2 {
 
 *.titre{
     background-color: var(--color1);
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom:20px;
     margin-bottom: 10px;
+    font-weight:bold;
+    font-size:45px;
 }
 
 nav{
@@ -537,4 +550,22 @@ div.contactgroupe table{
     .display-mobile {
         display: block;
     }
+}
+@media only screen and (max-width: 837px) {
+    div.logo img{
+        
+        height:50px;
+        width: auto;
+    }
+    div.logo img:first-of-type{
+        margin-left: -200px;
+    }
+}
+@media only screen and (max-width:462px) {
+    div.logo img{
+        
+        height:40px;
+        width: auto;
+    }
+    
 }
