@@ -567,5 +567,7 @@ div.contactgroupe table{
         height:40px;
         width: auto;
     }
-    
+    div.logo img:first-of-type{
+        margin-left: -320px;
+    }
 }
