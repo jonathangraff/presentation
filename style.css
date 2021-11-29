@@ -481,7 +481,8 @@ div.drapeau-padding li{
     padding-bottom:10px
 }
 .formation{
-    width: 105px
+    width: 105px;
+    min-width:50px
 }
 /* Contacts */ 
 
@@ -652,7 +653,7 @@ div.contactgroupe table{
         margin-left: -200px;
     }
     .formation{
-        width: 50px
+        width: 55px
     }
 }
 @media only screen and (max-width:432px) {
