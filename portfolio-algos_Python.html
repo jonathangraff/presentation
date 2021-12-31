@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algorithmes en Python</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../default.css">
+</head>
+<body style="background-color:var(--color4)">
+
+    <!-- HEADER -->
+    <iframe class = header  src="header.html" scrolling="no"></iframe>
+    <script src="menu.js"></script>
+    <!-- SECTION GRISE TITRE -->
+    <div class='container'>
+        <h2 class = badge-title> 
+            Algorithmes en Python</h2>
+   
+        <!-- SECTION CONTENU -->
+        <div class="section">
+            <div class="texte-avec-ligne-verticale ">
+                <p>
+                    Voici différents algorithmes implémentés lors de la résolution de problèmes, en général sur le site Codingame. Ces algorithmes m'ont permis de découvrir de nouvelles notions, de les mettre en 
+                    pratique, ainsi que d'utiliser des tests unitaires grâce au package unittest. 
+                    <br><br>
+                
+                    <u>Outils utilisés</u> : <b>Python, Pycharm, unittest</b>
+                </p>
+            </div>
+            <h3 class = 'badge-title mt-4'> 
+                Algorithme de backtracking :</h3>
+                
+                On donne une grille représentant un parcours de golf.
+                Sur chaque grille se trouve une certaine quantité de balles et une quantité égale de trous. 
+                L'objectif est de tracer le trajet de chaque balle vers un trou différent sans que les trajets ne se croisent.
+                Le programme doit afficher la solution unique du parcours.
+
+Pour chaque parcours, chaque case est représentée par un caractère :
+<ul>
+    <li>Un point . pour une cellule vide, représentant du gazon.</li>
+    <li>Un entier allant de 1 à 9, représentant une balle. La valeur indique son nombre de coups.</li>
+    <li>La lettre X, représentant un obstacle d'eau.</li>
+    <li>La lettre H, représentant un trou.</li>
+</ul> 
+Une balle peut être tapée plusieurs fois, autant que son nombre de coups.
+
+Le programme doit afficher sur la sortie standard une grille de taille égale à celle donnée en entrée, contenant des flèches indiquant comment les balles doivent être tapées.
+
+Le nombre de coups d'une balle indique aussi le nombre de cases qu'elle traverse la première fois qu'elle bouge. Le prochain coup ira une case moins loin, chaque coup décrémente le nombre de cases que 
+la balle traverse de 1. À chaque nouveau coup la balle pourra être tapée dans une nouvelle direction. Quand le prochain coup devient 0 ou que la balle s'arrête sur une case trou, la balle ne peut plus bouger.
+
+Chaque balle doit atteindre un trou. Un trou peut recevoir au plus 1 balle.
+
+Une balle ne peut pas quitter la grille, ni atterrir dans un obstacle d'eau. Elle peut cependant passer par dessus.
+                
+                
+              
+            <div class = "portfolio-detail">
+                
+                <a class='contact-button' 
+                style="display: inline-block; margin-top: 8px;" 
+                href="programmes/golf.py" target="_blank">Voir la solution programmée en Python</a>
+            </div>
+        </div>
+
+        <footer>
+
+            <div class='section section-grise'>
+                <script src='contact-frame.js'></script>
+            </div>
+        </footer> 
+    </div>
+   
+</body>
+</html>
