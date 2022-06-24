@@ -24,6 +24,8 @@
     --color5: #3d3d3d;
     --color6: #979797; /* séparateur*/
     --color7: #656565;
+    --color8: #33ec71;
+
 }
 
 body {
@@ -32,9 +34,15 @@ body {
     line-height: 1.5;
     background-color: var(--color4);
 }
+
+.underline{
+    text-decoration:underline;
+}
+
 p{
     margin-left:20px
 }
+
 iframe.contact {
     width: 100%;
     border: none;
@@ -270,13 +278,6 @@ a.contact-button:hover {
     background-color:var(--color4);
 }
 
-/* div.fin{
-    height:400px;
-    background: url(images/triangle2white.svg) no-repeat center bottom -1px/100%;
-    background-color: var(--color2);
-    padding-bottom: 70px;
-    margin-top: -115px;
-} */
 h2 {
     text-align: center;
     font-size: 34px;
@@ -294,14 +295,6 @@ div.separateur {
     margin-bottom: 20px;  
 }
 
-/* div.section-grise p {
-    font-size: 22px;
-    color: var(--color7);
-    text-align: center;
-    max-width: 450px;
-    margin-left: auto;
-    margin-right: auto;
-} */
 
 img.col-contenu {
     width: 30%;
@@ -314,6 +307,9 @@ div.col-contenu {
 
 .float-right {
     float: right;
+}
+.float-center {
+    margin-left: 15%;;
 }
 
 div.texte-avec-ligne-verticale {
@@ -439,6 +435,13 @@ img.drapeau{
     width:40px;
     height:auto
 }
+
+.important{
+    color:var(--color8);
+    font-weight:bold;
+    display:inline;
+}
+
 
 .bullet {
     list-style-type: disc;
