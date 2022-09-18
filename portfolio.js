@@ -4,11 +4,17 @@ document.write("<td style='width:100%;'><a href='portfolio-algos_Python.html'><i
 document.write("</a></td></tr><tr><td></td>")
 document.write("<td align='center'><a class='contact-button' href='portfolio-algos_Python.html'>Algorithmes en Python</a></td></tr></table>")
 
-document.write("<table  class='col-portfolio float-right'><tr><td><div class='barre-verticale'></div></td>")
+// document.write("<table  class='col-portfolio float-right'><tr><td><div class='barre-verticale'></div></td>")
 
-document.write("<td style='width:100%;'><a href='portfolio-algos_Java.html'><img style='width:100%' src='images/java_algos.jpg'>")
+// document.write("<td style='width:100%;'><a href='portfolio-algos_Java.html'><img style='width:100%' src='images/java_algos.jpg'>")
+// document.write("</a></td></tr><tr><td></td>")
+// document.write("<td align='center'><a class='contact-button' href='portfolio-algos_Java.html'>Algorithmes en Java</a></td></tr></table>")
+
+document.write("<table class='col-portfolio float-right' style='display:inline-block'><tr><td><div class='barre-verticale'></div></td>")
+
+document.write("<td style='width:100%;'><a href='portfolio-bibli_C.html'><img style='width:100%' src='images/appli_bibli.jpg'>")
 document.write("</a></td></tr><tr><td></td>")
-document.write("<td align='center'><a class='contact-button' href='portfolio-algos_Java.html'>Algorithmes en Java</a></td></tr></table>")
+document.write("<td align='center'><a class='contact-button' href='portfolio-bibli_C.html'>Interface d'une bibliothèque en C</a></td></tr></table>")
 
 document.write("<table class='col-portfolio' style='display:inline-block'><tr><td><div class='barre-verticale'></div></td>")
 

@@ -439,10 +439,17 @@ img.drapeau{
 .important{
     color:var(--color8);
     font-weight:bold;
-    display:inline;
+    display:inline-block;
+    width: auto;
 }
 
-
+.ville{
+    color:var(--color8);
+    font-weight:bold;
+    display:inline-block;
+    float:right;
+    text-align:right
+}
 .bullet {
     list-style-type: disc;
     margin-left : 25px;
@@ -514,6 +521,7 @@ div.contactgroupe table{
 
 /* RESPONSIVE DESIGN : MOBILE */
 @media only screen and (max-width: 767px) {
+   
     img.cover-profile {
         height: 90px;
         margin-top: 75px;
@@ -577,7 +585,7 @@ div.contactgroupe table{
         width: 70px;
     }
 
-    /* POSTFOLIO - MOBILE */
+    /* PORTFOLIO - MOBILE */
     .portfolio-header-title {
         font-size: 19px;
         padding-top: 10px;
@@ -636,6 +644,8 @@ div.contactgroupe table{
     }
 }
 @media only screen and (max-width: 992px) {
+    
+
     div.logo img{
         
         height:50px;
